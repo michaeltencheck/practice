@@ -70,3 +70,4 @@ build.xml
 proguard-project.txt
 .idea/
 *.iml
+HttpClientTest/app/src/main/java/com/example/test/httpclienttest/MainActivity.java

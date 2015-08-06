@@ -1,5 +1,7 @@
 package com.example.test.locationtest;
 
+import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,7 +37,40 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "nothing at all", Toast.LENGTH_LONG ).show();
             return;
         }
+        Location location = locationManager.getLastKnownLocation(provider);
+        if (location != null){
+            showLocation(location);
+        }
+        locationManager.requestLocationUpdates(provider, 5000, 1,locationListener);
     }
+
+    private void showLocation(Location location) {
+        String currentLocation = "latitude is " + location.getLatitude() + "\n"
+                + "longitude is " + location.getLongitude();
+        textView.setText(currentLocation);
+    }
+
+    LocationListener locationListener = new LocationListener() {
+        @Override
+        public void onLocationChanged(Location location) {
+            showLocation(location);
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

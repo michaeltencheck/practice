@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
 import com.larvalabs.svgandroid.SVG;
@@ -20,6 +22,7 @@ import com.larvalabs.svgandroid.SVGParser;
 public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private SensorManager sensorManager;
+    private float lastRotateDegree;
     private SensorEventListener sensorEventListener = new SensorEventListener() {
         float[] accValues = new float[3];
         float[] magValues = new float[3];
@@ -35,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
             sensorManager.getRotationMatrix(R, null, accValues, magValues);
             sensorManager.getOrientation(R, values);
             Log.d("MainActivity", "values[0] is " + Math.toDegrees(values[0]));
+
+            float rotateDegree = -(float)Math.toDegrees(values[0]);
+            if (Math.abs(rotateDegree - lastRotateDegree) > 1) {
+                RotateAnimation rotateAnimation = new RotateAnimation
+                        (lastRotateDegree, rotateDegree, Animation.RELATIVE_TO_SELF, 0.5f,
+                                Animation.RELATIVE_TO_SELF, 0.5f);
+                rotateAnimation.setFillAfter(true);
+                imageView.startAnimation(rotateAnimation);
+                lastRotateDegree = rotateDegree;
+            }
         }
 
         @Override
@@ -58,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        imageView = (ImageView) findViewById(R.id.compass_imageView);
+        imageView = (ImageView)findViewById(R.id.compass_imageView);
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
         Sensor sensorAcc = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);

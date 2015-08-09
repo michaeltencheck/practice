@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="793.33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1122.7">
+ <defs>
+  <linearGradient id="svg_2" y2=".64336" xlink:href="#linearGradient1810" x2="-.057781" y1=".5" x1="1"/>
+  <linearGradient id="linearGradient1732" y2="1.1312" x2=".53704" y1=".03125" x1=".43210">
+   <stop id="stop1734" stop-opacity="0" offset="0"/>
+   <stop id="stop1735" stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_1" y2=".5" xlink:href="#linearGradient1810" y1=".5"/>
+  <linearGradient id="linearGradient1738" y2=".51871" x2=".98436" y1=".54009" x1="-.068597">
+   <stop id="stop1740" stop-opacity="0" offset="0"/>
+   <stop id="stop1741" stop-color="#fff" stop-opacity=".67" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1589" y2=".625" x2=".115" y1=".61719" x1=".98">
+   <stop id="stop1591" stop-color="#686568" offset="0"/>
+   <stop id="stop1592" stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1810">
+   <stop id="stop1811" stop-opacity=".433" offset="0"/>
+   <stop id="stop1812" stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1718" fx=".54375" cy=".50625" cx=".53125" r=".53754">
+   <stop id="stop1723" offset="0"/>
+   <stop id="stop1724" stop-color="#fff" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient1721">
+   <stop id="stop1641" stop-color="#00b9ff" offset="0"/>
+   <stop id="stop1642" stop-color="#0046a9" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g id="g2204" transform="matrix(.78198 0 0 .78198 56.583 -436.64)">
+  <g id="g1817" stroke-width="4.083" fill="none">
+   <path id="path1814" stroke="url(#svg_2)" d="m324.07 739.8"/>
+   <path id="path1815" stroke="url(#svg_1)" d="m376.07 741.46"/>
+  </g>
+  <path id="rect1561" d="m350.82 794.74c-7.1392 0-12.938 5.4866-12.938 12.25 0 1.4578 0.28744 2.8278 0.78125 4.125-13.82 3.2848-23.991 14.718-23.969 28.562v8.4688c0.00235 1.455 0.24988 2.8512 0.46875 4.25l71.312 0.2812c0.21442-1.3972 0.4711-2.7949 0.46875-4.25l-0.0312-8.5c-0.0224-13.826-10.197-25.311-24-28.719 0.51654-1.3231 0.84375-2.7262 0.84375-4.2188 0-6.7634-5.7983-12.25-12.938-12.25z" fill-rule="evenodd" stroke="#797b7a" stroke-width="1.201" fill="url(#linearGradient1589)"/>
+ </g>
+ <g fill-rule="evenodd">
+  <g stroke-width="1.25">
+   <g stroke="#000">
+    <path id="path1720" fill="url(#radialGradient1721)" d="m549.37 509.4a217.6 216.26 0 1 0 -435.2 0 217.6 216.26 0 1 0 435.2 0z"/>
+    <path id="path1091" fill="url(#radialGradient1718)" stroke-opacity=".465" d="m333.03 225.3c-156.86 0-284.15 127.32-284.15 284.18s127.29 284.15 284.15 284.15 284.18-127.29 284.18-284.15-127.32-284.18-284.18-284.18zm0 68.497c119.05 0 215.68 96.627 215.68 215.68s-96.628 215.66-215.68 215.66-215.66-96.603-215.66-215.66c0-119.05 96.603-215.68 215.66-215.68z"/>
+   </g>
+   <path id="path1727" fill="url(#linearGradient1732)" d="m333.05 245.04c-147.1 0-266.48 118.9-266.48 265.38 0 146.49 119.39 265.38 266.48 265.38 147.1 0 266.48-118.9 266.48-265.38 0-146.49-119.39-265.38-266.48-265.38zm1.0752 3.1035c130.96-0.000015 237.23 117.27 237.23 261.77s-106.28 261.77-237.23 261.77c-130.96 0-237.23-117.27-237.23-261.77s106.28-261.77 237.23-261.77z"/>
+  </g>
+  <path id="path1736" d="m556.35 510.38a223.74 222.23 0 1 0 -447.49 0 223.74 222.23 0 1 0 447.49 0z" stroke="url(#linearGradient1738)" stroke-width="12.75" fill="none"/>
+ </g>
+ <g id="g3211" fill="#fff" transform="matrix(.78198 0 0 .78198 86.392 122.27)">
+  <path id="path1058" d="m482.35 662l27.704 27.285" fill-rule="evenodd" stroke="#fff" stroke-width="1.201"/>
+  <text id="text1076" font-family="Bitstream Vera Sans" font-weight="bold" xml:space="preserve" transform="matrix(-.72086 .64004 -.69308 -.66568 0 0)" font-size="20" y="-832.80609" x="132.54161" stroke-width="1.25"><tspan id="tspan1077">SE</tspan>
+</text>
+ </g>
+ <g id="g1104" stroke-opacity=".722" transform="matrix(.78198 0 0 .78198 -91.171 88.202)" stroke="#fff" stroke-width="1.125">
+  <path id="path1044" fill-rule="evenodd" fill="#0081f6" d="m574.49 780.6a30.44 30.438 0 1 0 -60.881 0 30.44 30.438 0 1 0 60.881 0z"/>
+  <text id="text1082" font-weight="bold" xml:space="preserve" transform="scale(1 .92346)" font-size="32" y="856.94586" x="532.55249" font-family="Bitstream Vera Sans" fill="#fff"><tspan id="tspan1083">S</tspan>
+</text>
+ </g>
+ <g id="g3206" fill="#fff" transform="matrix(.78198 0 0 .78198 86.392 122.27)">
+  <path id="path1059" d="m121.19 689.61l26.634-28.331" fill-rule="evenodd" stroke="#fff" stroke-width="1.201"/>
+  <text id="text1088" font-family="Bitstream Vera Sans" font-weight="bold" xml:space="preserve" transform="matrix(-.70849 -.65171 .70572 -.65426 -227.07 -43.565)" font-size="20" y="-258.68124" x="-824.0871" stroke-width="1.25"><tspan id="tspan1089">SW</tspan>
+</text>
+ </g>
+ <g stroke="#fff">
+  <path id="path1118" d="m333.71 357.11l-21.309 101.95-54.543-24.535 24.584 54.69-102 20.527 101.95 21.285-24.535 54.543 54.714-24.584 20.503 102 21.285-101.93 54.543 24.51-24.584-54.69 102.02-20.503-101.95-21.309 24.51-54.543-54.69 24.608-20.503-102.02zm-0.7087 111.07c22.61 0 40.956 18.346 40.956 40.956 0 22.611-18.346 40.956-40.956 40.956s-40.981-18.346-40.981-40.956c0-22.611 18.37-40.956 40.981-40.956z" stroke-opacity=".461" fill-rule="evenodd" fill-opacity=".087" stroke-width="2.5" fill="#28ffff"/>
+  <g stroke-width="1.125" stroke-opacity=".722">
+   <g id="g1109" transform="matrix(.78198 0 0 .78198 -91.171 88.202)">
+    <path id="path1043" fill-rule="evenodd" fill="#0081f6" d="m814.1 539.63a30.44 30.438 0 1 0 -60.881 0 30.44 30.438 0 1 0 60.881 0z"/>
+    <text id="text1070" font-weight="bold" xml:space="preserve" transform="scale(1 .92346)" font-size="32" y="596.02161" x="772.43195" font-family="Bitstream Vera Sans" fill="#fff"><tspan id="tspan1071">E</tspan>
+</text>
+   </g>
+   <g id="g1099" transform="matrix(.78198 0 0 .78198 -91.171 88.202)">
+    <path id="path1042" fill-rule="evenodd" fill="#0081f6" d="m330.8 538.49a30.44 30.438 0 1 0 -60.881 0 30.44 30.438 0 1 0 60.881 0z"/>
+    <text id="text1091" font-weight="bold" xml:space="preserve" transform="scale(1 .92346)" font-size="36" y="596.24664" x="280.53375" font-family="Bitstream Vera Sans" fill="#fff"><tspan id="tspan1092">W</tspan>
+</text>
+   </g>
+  </g>
+ </g>
+ <g fill="#fff">
+  <g id="g1886" transform="matrix(.78198 0 0 .78198 444.07 84.762)">
+   <path id="path1057" d="m-335.13 347.16l27.704 27.285" fill-rule="evenodd" stroke="#fff" stroke-width="1.201"/>
+   <text id="text1085" font-family="Bitstream Vera Sans" font-weight="bold" xml:space="preserve" transform="matrix(.64696 -.70416 .76253 .59744 -683.42 5.4456)" font-size="20" y="563.56293" x="-81.603394" stroke-width="1.25"><tspan id="tspan1086">NW</tspan>
+</text>
+  </g>
+  <g id="g1891" transform="matrix(.78198 0 0 .78198 442.53 84.671)">
+   <path id="path1060" d="m26.702 376.1l27.361-27.629" fill-rule="evenodd" stroke="#fff" stroke-width="1.201"/>
+   <text id="text1073" font-family="Bitstream Vera Sans" font-weight="bold" xml:space="preserve" transform="matrix(.70933 .65092 -.70487 .65504 -683.42 5.4456)" font-size="20" y="-197.19197" x="773.31976" stroke-width="1.25"><tspan id="tspan1074">NE</tspan>
+</text>
+  </g>
+ </g>
+ <g stroke="#fff">
+  <g id="g1094" stroke-width="1.125" stroke-opacity=".722" transform="matrix(.78198 0 0 .78198 -91.171 88.202)">
+   <path id="path1802" fill-rule="evenodd" fill="#0081f6" d="m574.49 297.3a30.44 30.438 0 1 0 -60.881 0 30.44 30.438 0 1 0 60.881 0z"/>
+   <text id="text1079" font-weight="bold" xml:space="preserve" transform="scale(1 .92346)" font-size="32" y="333.60751" x="530.66187" font-family="Bitstream Vera Sans" fill="#fff"><tspan id="tspan1080">N</tspan>
+</text>
+  </g>
+  <g fill-rule="evenodd" stroke-width=".911" fill="#fff">
+   <path id="path3202" d="m190.98 365l-13.731-3.8444 10.195-9.9694 3.5363 13.814z"/>
+   <path id="path3203" d="m489.79 362.56l-13.794 3.6111 3.77-13.752 10.024 10.141z"/>
+   <path id="path3204" d="m490.13 656.06l-10.01 10.155-3.7896-13.746 13.8 3.5914z"/>
+   <path id="path3205" d="m186.17 666.08l-10.16-10.005 13.745-3.7962-3.5847 13.801z"/>
+  </g>
+ </g>
+</svg>

@@ -1,5 +1,6 @@
 package com.example.test.compass;
 
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -11,6 +12,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.widget.ImageView;
+
+import com.larvalabs.svgandroid.SVG;
+import com.larvalabs.svgandroid.SVGBuilder;
+import com.larvalabs.svgandroid.SVGParser;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
@@ -42,9 +47,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+
+        /*ImageView imageView = new ImageView(this);
+        imageView.setBackgroundColor(Color.WHITE);
+        SVGBuilder svgBuilder = new SVGBuilder();
+        svgBuilder.readFromResource(getResources(), R.drawable.compass);
+        SVG svg = svgBuilder.build();
+        imageView.setImageDrawable(svg.getDrawable());*/
+
         setContentView(R.layout.activity_main);
 
-        imageView = (ImageView) findViewById(R.id.compass_imageView);
+//        imageView = (ImageView) findViewById(R.id.compass_imageView);
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
         Sensor sensorAcc = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -61,6 +74,12 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        sensorManager.unregisterListener(sensorEventListener);
     }
 
     @Override
